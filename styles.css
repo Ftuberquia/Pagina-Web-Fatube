@@ -101,32 +101,34 @@ main .social-icons .social-icon {
     padding: 20px;          /*tamaño iconos*/
     margin-left: 8px;
     border-radius: 5px;
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */  /* para que tengan espacio */
 }
 main .social-icons .social-icon {
     display: flex;
 }
-#linkedIn {
-    width: 40px;
-}
-#Github {
-    width: 40px;
-}
-#Platzi {
-    width: 40px;
-}
-#Slack {
-    width: 40px;
-}
-#Henry {
-    width: 40px;
-}
 
-main .social-icons li #Slack {  /*esto lo hice tratando de arreglar iconos pero solo ayuda a que se vea el de linkedin*/
+#linkedIn img {
     width: 40px;
-    height: 40px;
-}
+  }
+
+#Github img {
+    width: 40px;
+  }
+
+#Platzi img {
+    width: 40px;
+  }  
+
+#Slack img {
+    width: 50px;
+  margin-top: -5px;
+  }
+
+#Henry img {
+    width: 40px;
+  }
+
 
 main .social-icons #linkedIn {
     background: #0077b0;
